@@ -14,6 +14,7 @@ def cargar_diccionario():
 #Esta funcion me permite solicitar el listado completo de peliculas que se haya agregado al diccionario.
 
 def obtener_titulo(diccionario):
+    print("Listado de peliculas: ")
     for x in diccionario:
         minutos, estreno = diccionario[x]
         print("Pelicula:", x, "- Duracion:", minutos, "min - Estreno:", estreno)
@@ -25,3 +26,4 @@ def obtener_titulo(diccionario):
 diccionario=cargar_diccionario()
 
 obtener_titulo(diccionario)
+
