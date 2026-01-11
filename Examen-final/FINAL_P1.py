@@ -1,8 +1,3 @@
-#Micaela Caamaño
-#DNI: 40120391
-
-#Definiendo funciones.
-
 #Cargamos a traves de esta funcion el listado de peliculas que deseamos agregar al diccionario. 
 
 def cargar_diccionario():
@@ -28,4 +23,5 @@ def obtener_titulo(diccionario):
 #Bloque principal:
     
 diccionario=cargar_diccionario()
+
 obtener_titulo(diccionario)
